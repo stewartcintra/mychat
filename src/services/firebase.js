@@ -1,14 +1,14 @@
-import firebase from "firebase/compat/app";
-import "firebase/compat/auth";
-import "firebase/compat/firestore";
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
 
 const firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: "",
+  apiKey: 'AIzaSyBFFhVHzSV3CqltKRSmvzt3qkX8YvNQsdc',
+  authDomain: 'mychat-18177.firebaseapp.com',
+  projectId: 'mychat-18177',
+  storageBucket: 'mychat-18177.appspot.com',
+  messagingSenderId: '1040939296106',
+  appId: '1:1040939296106:web:4d040a07506e5fd1b27113',
 };
 
 const app = firebase.initializeApp(firebaseConfig);
